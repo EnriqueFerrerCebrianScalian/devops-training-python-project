@@ -9,7 +9,7 @@ pipeline {
     environment {
         DOCKERHUB_CREDENTIALS=credentials('dockerhub-auth')
         DOCKERHUB_HOST="enriqueferrercebrianscalian"
-       VERSION=0.0.1"${params.version}"
+       IMAGE_VERSION="${params.version}"
     }
 
     stages {
