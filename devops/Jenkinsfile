@@ -8,8 +8,8 @@ pipeline {
 
     environment {
         DOCKERHUB_CREDENTIALS=credentials('dockerhub-auth')
-        DOCKERHUB_HOST="contrerasadr"
-        IMAGE_VERSION="${params.version}"
+        DOCKERHUB_HOST="enriqueferrercebrianscalian"
+       VERSION=0.0.1"${params.version}"
     }
 
     stages {
